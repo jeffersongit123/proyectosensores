@@ -1,0 +1,27 @@
+/* estilereport.css */
+
+/* Estilo del contenedor principal del reporte */
+.report-container {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  /* Estilo del contenedor de la gráfica */
+  .chart-wrapper {
+    height: 300px; /* Ajusta la altura según sea necesario */
+    width: 100%; /* Hace que el gráfico use el 100% del ancho del contenedor */
+    margin-top: 1rem; /* Espacio arriba del gráfico */
+  }
+  
+  /* Estilo del título */
+  .chart-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e7eb; /* Color gris claro */
+    padding-bottom: 0.75rem; /* Espacio abajo del título */
+  }
+  

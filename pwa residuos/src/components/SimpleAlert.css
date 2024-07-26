@@ -1,0 +1,28 @@
+/* src/components/SimpleAlert.css */
+.simple-alert {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #f44336; /* Por defecto, rojo para error */
+  }
+  
+  .simple-alert-success {
+    background-color: #4caf50; /* Verde para éxito */
+  }
+  
+  .simple-alert-error {
+    background-color: #f44336; /* Rojo para error */
+  }
+  
+  .simple-alert-warning {
+    background-color: #ff9800; /* Naranja para advertencia */
+  }
+  
+  .simple-alert-info {
+    background-color: #2196f3; /* Azul para información */
+  }
+  

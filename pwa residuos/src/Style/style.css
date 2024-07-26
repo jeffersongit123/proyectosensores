@@ -1,0 +1,91 @@
+/* src/Style/style.css */
+/* src/Style/style.css */
+html,
+body,
+#root {
+  font: 0.9rem sans-serif;
+  background: #009fff;
+  background: -webkit-linear-gradient(to right, #ec2f4b, #009fff);
+  background: linear-gradient(to right, #ec2f4b, #009fff);
+  color: #1e2432;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.prediction-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 90%; /* Ajusta el ancho para dispositivos móviles */
+  max-width: 400px; /* Ancho máximo para evitar que sea demasiado grande */
+}
+
+.prediction-content {
+  text-align: center;
+}
+
+.tree-image {
+  width: 100%;
+  max-width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.search {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input[type='number'] {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.close-button {
+  margin-top: 20px;
+  background-color: #ec2f4b;
+}
+
+.close-button:hover {
+  background-color: #ff4d64;
+}
+
+@media only screen and (max-width: 768px) {
+  .prediction-container {
+    width: 90%;
+    max-width: 90%;
+  }
+}
+
+.max-w-md {
+  max-width: 50rem; /* Nuevo valor, por ejemplo, para max-w-lg */
+}
+
+

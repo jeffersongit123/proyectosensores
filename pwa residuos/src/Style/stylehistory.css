@@ -1,0 +1,35 @@
+/* src/Style/stylehistory.css */
+
+/* Estilo del contenedor principal del historial */
+.history-container {
+    width: 110%; /* Ajusta el tamaño del contenedor según tus necesidades */
+    max-width: 900px; /* Tamaño máximo del contenedor */
+    background-color: hsl(204, 80%, 76%);
+    border-radius: 0.5rem; /* 8px */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 2rem auto; /* Margen para centrar el contenedor verticalmente */
+    max-height: 90vh; /* Altura máxima del contenedor */
+    overflow-y: auto; /* Añadir scroll si el contenido supera la altura máxima */
+}
+
+/* Estilo de cada ítem del historial */
+.history-item {
+    border-bottom: 1px solid #e5e7eb; /* Línea divisoria entre ítems */
+    padding: 0.75rem 0; /* Espacio arriba y abajo de cada ítem */
+}
+
+/* Estilo del título del historial */
+.history-container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 30%);
+}
+
+/* Estilo para los detalles del historial */
+.history-item p {
+    margin: 0.25rem 0;
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+}
+
